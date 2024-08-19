@@ -126,7 +126,7 @@ CREATE TABLE Usuarios
      id_usuarios INTEGER NOT NULL , 
      nombre VARCHAR (30) , 
      apellidos VARCHAR (30) , 
-     nacimiento DATE , 
+     nacimiento DATETIME , 
      correo VARCHAR (1000) , 
      celular VARCHAR (40) , 
      contrasenna VARCHAR (1000) , 
