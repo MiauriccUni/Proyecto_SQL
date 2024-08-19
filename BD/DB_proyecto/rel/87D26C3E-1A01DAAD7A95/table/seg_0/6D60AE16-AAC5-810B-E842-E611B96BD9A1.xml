@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6D60AE16-AAC5-810B-E842-E611B96BD9A1" name="clases_grupales">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>333F9F0C-A0B7-B305-35B0-FA5D72CD504D</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_clase" id="E3CA492B-566F-F8EC-25C3-022361FDCE9A">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>1A0D1D68-2953-4C93-2F3B-1E705DABF94A</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_clase" id="922C5AB0-E9B5-98B9-95C7-5BF702ABD51B">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>474C4E4D-E6ED-4DEC-8DAA-B6096AC1EF53</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horarios" id="D2CFA7AA-54DB-006C-F1E4-F8FC8A41F6D8">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>5B9E18D0-13A6-8A47-8A1F-7BCB6A605DBE</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuarios_id_usuarios" id="4CFF43A8-1CBE-F538-7573-E51BE8AD6BFB">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>BE60F179-1DA2-83A9-CA19-3B4D76CD482C</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2992A3C-BFA5-E3E1-5CE8-7827CFB9E234" referredColumn="6DB7B49D-ECFA-ADD3-9A92-2D95EFAA85FF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="099DB009-5DA2-4EFC-D049-DFF2DCB7E9F4" name="clases_grupales_PK">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>B7F37592-ABD9-D286-9314-66F835A9FB38</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3CA492B-566F-F8EC-25C3-022361FDCE9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="870B56FC-0983-8E63-FF53-54605BAE40D7" name="clases_grupales_usuarios_FK">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>B75A18AF-8A58-25B8-1EDD-3D1FB7B25DF8</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CFF43A8-1CBE-F538-7573-E51BE8AD6BFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

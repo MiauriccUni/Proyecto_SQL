@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3500F7CA-901C-6C71-5F30-8F5A265ED0B3" name="rutinas">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 01:02:05 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_rutina" id="E369FF23-3142-EA73-533D-E1FB2FC9EDEC">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 01:02:10 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_ejercicio" id="CFA3690B-0ED6-ADD5-4C05-E3721BFD79A2">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 01:04:26 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipos_de_ejercicio" id="1DB0993F-7953-DC4F-A21A-F68A4C4E5598">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 01:02:33 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B5A7B22B-A4C1-4556-264F-F2AAB1158EBB" name="rutinas PK">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 01:02:32 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E369FF23-3142-EA73-533D-E1FB2FC9EDEC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

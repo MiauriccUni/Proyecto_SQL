@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C42497EC-1611-145C-D60A-1DC4B479CA69" name="cupones_descuentos">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>18150761-C8C9-ABDC-2279-36F2D3D93EB7</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cupones" id="6E4A0B25-E3BE-F93A-B79A-56C48F74AB87">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>1361A01D-AB18-4D1D-4D81-0CE036FBCC70</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_cupon" id="66FF467C-DB47-D246-BA6F-75FB83212D69">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>6A5E93C7-76DC-2861-0567-D9E46A3E4B28</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descuento" id="253C032B-B051-E764-54A8-634DF02FF036">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>A96D6222-9803-7B6B-B06D-B5FA59BE54FB</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C2548493-DCBF-B88C-C654-BDDF1C43B880" name="cupones_descuentos_PK">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>FF34F7C8-D048-8B2B-0CB4-F194D9A33220</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E4A0B25-E3BE-F93A-B79A-56C48F74AB87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

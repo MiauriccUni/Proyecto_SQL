@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="923C4668-67EA-3C42-C797-0DC703CBD5F0" name="rutinas">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>3500F7CA-901C-6C71-5F30-8F5A265ED0B3</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_rutina" id="382C3E55-7F72-FE3A-9393-F948A02C3DD4">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>E369FF23-3142-EA73-533D-E1FB2FC9EDEC</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_ejercicio" id="F56A0838-AA32-7A8A-2DFD-5F3BAC00F0DD">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>CFA3690B-0ED6-ADD5-4C05-E3721BFD79A2</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipos_de_ejercicio" id="731E8595-AB58-D735-F7C0-644B41F626D5">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>1DB0993F-7953-DC4F-A21A-F68A4C4E5598</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD796296-B7EC-3FC0-C548-68282226D072" name="rutinas_PK">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>B5A7B22B-A4C1-4556-264F-F2AAB1158EBB</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="382C3E55-7F72-FE3A-9393-F948A02C3DD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

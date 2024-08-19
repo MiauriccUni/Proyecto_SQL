@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52FA3BCC-D3E1-FC48-ACF1-248FD9B160D4" name="rutina_maquina">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>E3977370-45FC-45FA-8ABD-379392281C4C</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_rutina_maquina" id="DD4A69E6-C2DA-9856-B3CF-32289B028789">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>E45DE06F-1362-20BE-7F93-302C69FE728A</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rutinas_id_rutina" id="9B110C6A-B588-163F-33A1-A3516B58EE72">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>26E4BD68-D674-857A-0E00-5D6B8C9E4AB8</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E8FDBF5-CC25-F8AD-E0BB-21A78122DDA3" referredColumn="382C3E55-7F72-FE3A-9393-F948A02C3DD4"/>
+</associations>
+</Column>
+<Column name="maquina_nombre_maquina" id="C7706E38-4CCE-46F7-55A7-C2501E8B757A">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>C58D3981-310F-C964-AD97-E784899747F1</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B31058A4-558E-62F6-1A77-C28181BAC27C" referredColumn="A65CC021-83F1-1760-2C68-F87155C82E5C"/>
+</associations>
+</Column>
+<Column name="maquina_id_maquina" id="60440204-6C5C-B339-2CB8-8A5F58421FB5">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>D248F9A6-D8A2-02FF-2E6A-871BDF83B914</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B31058A4-558E-62F6-1A77-C28181BAC27C" referredColumn="70CC793D-001A-F45A-9969-207C3504E9C7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B99BC515-7F0F-3481-C17C-308D158F4E89" name="rutina_maquina_PK">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>69EF5E83-0C70-F974-FC3A-B11250EC3CBF</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD4A69E6-C2DA-9856-B3CF-32289B028789"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B373A09D-65B2-CA64-23C9-3D3E37FFF342" name="rutina_maquina_rutinas_FK">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>24E54A4C-3A2E-927E-CA33-0865127C85C9</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B110C6A-B588-163F-33A1-A3516B58EE72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E28A82C-64FF-4CCD-AF0E-72014A76CD32" name="rutina_maquina_maquina_FK">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>BD5443CC-29D1-9704-ED4D-8491B0ECDA84</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7706E38-4CCE-46F7-55A7-C2501E8B757A"/>
+<colUsage columnID="60440204-6C5C-B339-2CB8-8A5F58421FB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

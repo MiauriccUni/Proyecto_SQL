@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F8BDB62-3D1C-0DD5-F3DF-DE6864851CC0" name="Usuarios">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>65EB086E-BBA7-285E-0CAC-1B1A6F2556FA</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuarios" id="6DB7B49D-ECFA-ADD3-9A92-2D95EFAA85FF">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>5BB6EFE0-67EE-4CA3-4465-BFB4C890A6F3</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="431FFC48-9B0A-6F2D-95DF-3B9076EF3F15">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>7C1520EA-56B7-9298-98A6-1F66D9CA0667</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidos" id="F71E9E7E-B5D2-3895-525F-4E706B56D845">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>6F487C0E-72A9-6DA7-F26D-F36B92776909</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacimiento" id="0D086059-B2E6-EFFD-E251-5E01BFDDC0D0">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>5475C06B-7DFE-DFDB-7BDB-995C6B2FB0E7</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="014F80B9-5436-A601-8E15-32E400BA3BFB">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>F91A14D7-E99E-A19F-9909-DDD7AF5C325D</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="celular" id="ABC721CB-01B8-E366-50E6-897EEA619B05">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>C3AC2C2E-41F3-7EF7-08E9-4D58CED9D50F</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contrasenna" id="6D684EE5-72FA-D871-77AC-8936D050237C">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>9D5FE116-586B-5801-ACB9-0F402B9A4E67</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rol" id="CAE0EF76-C8BE-4A8F-18C4-5F323BE64D18">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>6465D0E2-83D3-046B-FB4F-DD8024DB6DB5</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genero" id="51C26EDC-C518-FD03-A598-F28088F670B7">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>E0AE1726-414D-2167-7C84-7D7E2C747E88</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="72254EAC-E0CE-FFBF-3505-3557A59D62E5" name="usuarios_PK">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>26C2CB52-9888-5BDB-6801-B9B0D3F81CE8</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DB7B49D-ECFA-ADD3-9A92-2D95EFAA85FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

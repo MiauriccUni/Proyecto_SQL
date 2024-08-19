@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9289C780-5AF5-5798-D47D-D75357129F17" name="maquina">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>F3B9D462-3B67-FE78-8793-C4C9FDA60675</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_maquina" id="70CC793D-001A-F45A-9969-207C3504E9C7">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>1A5E232F-5F47-E7D6-969A-B86AFAE3FEE8</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_maquina" id="A65CC021-83F1-1760-2C68-F87155C82E5C">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>418A4AAC-C3E6-8294-B853-41D2EC42F9EC</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7DD4D62-32EE-21A2-6656-B5A971CB3F8C" name="maquina_PK">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>19D7FB0E-5D8F-30BF-B88C-935B4B4F8B4C</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A65CC021-83F1-1760-2C68-F87155C82E5C"/>
+<colUsage columnID="70CC793D-001A-F45A-9969-207C3504E9C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

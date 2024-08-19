@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B31058A4-558E-62F6-1A77-C28181BAC27C" containerWithKeyObject="52FA3BCC-D3E1-FC48-ACF1-248FD9B160D4" localFKIndex="4E28A82C-64FF-4CCD-AF0E-72014A76CD32" name="rutina_maquina_maquina_FK">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>BD5443CC-29D1-9704-ED4D-8491B0ECDA84</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<referredTableLongName>maquina</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9289C780-5AF5-5798-D47D-D75357129F17</referredTableID>
+<keyObject>D7DD4D62-32EE-21A2-6656-B5A971CB3F8C</keyObject>
+<referredKeyID>D7DD4D62-32EE-21A2-6656-B5A971CB3F8C</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>nombre_maquina,id_maquina</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

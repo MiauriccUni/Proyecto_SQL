@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="353D730D-9A71-4317-4BAD-04A199BC11B7" name="registro_entrenamientos">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 00:50:29 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_entrenamientos" id="A5E74CDB-56A1-9217-9167-E2EE9AAE0609">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 00:50:41 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="repeticiones" id="344DDAE6-DA82-9040-9E3A-FC5FB23AA942">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 00:51:38 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peso" id="6780F864-6EB6-D2AB-104A-5D0ABC876A90">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 00:53:31 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tiempo" id="A27E006B-8BED-6054-160C-60347DE3F8B5">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 00:54:19 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_rutina" id="9A12AADD-3ABD-A517-04A9-E4EA278B103E">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 01:16:01 UTC</createdTime>
+<generatorID>39B0C594-4A4D-21C1-550D-8CA7C6A7E183</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E369FF23-3142-EA73-533D-E1FB2FC9EDEC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="89A27418-C496-6D2B-41D6-9C54C00A115B" name="registro_entrenamientos PK">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 00:51:37 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A5E74CDB-56A1-9217-9167-E2EE9AAE0609</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

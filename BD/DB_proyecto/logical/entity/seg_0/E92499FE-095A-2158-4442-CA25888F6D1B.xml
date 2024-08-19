@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E92499FE-095A-2158-4442-CA25888F6D1B" name="planes_mensuales">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 01:21:05 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_plan" id="889067FF-005D-A231-A332-7DFDFFE71EBC">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 01:21:27 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_plan" id="78EA2D53-9D3F-48DE-493D-29C2E6BE4D4F">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 01:21:40 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400 CHAR</dataTypeSize>
+<ownDataTypeParameters>400 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio" id="86DDD6EF-713D-D130-BB74-ECF6D53F053A">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 01:23:22 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cupones" id="A0B80A62-A352-75B5-B464-25C5743FBAD1">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 01:30:05 UTC</createdTime>
+<generatorID>A626E449-A4FD-5C31-1D8C-5A941AECCBE1</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1361A01D-AB18-4D1D-4D81-0CE036FBCC70</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="B0E570F5-B2D7-A8AD-2875-CAB214911154">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 01:30:55 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 CHAR</dataTypeSize>
+<ownDataTypeParameters>120 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuarios" id="1E2F5FA7-3335-B5C4-A7CF-BFC8E196CA57">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 00:55:49 UTC</createdTime>
+<generatorID>6366BCC5-0DCB-A1DB-D3A5-638B59FC4B0F</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5BB6EFE0-67EE-4CA3-4465-BFB4C890A6F3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F3A192EF-7B03-FA0A-C4BA-363CA149A9E7" name="planes_mensuales PK">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 01:21:39 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>889067FF-005D-A231-A332-7DFDFFE71EBC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

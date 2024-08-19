@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6991A09F-B9A4-0EA8-8FCE-974210E4CC84" name="planes_mensuales">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>E92499FE-095A-2158-4442-CA25888F6D1B</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_plan" id="AACA965B-4CD8-4719-5AB2-36CE33A53DBD">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>889067FF-005D-A231-A332-7DFDFFE71EBC</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_plan" id="8FF47531-4FD6-71E9-113C-9ABA77E92B5F">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>78EA2D53-9D3F-48DE-493D-29C2E6BE4D4F</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400 CHAR</dataTypeSize>
+<ownDataTypeParameters>400 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="D8C7CA11-678D-BF38-BECF-3624C5292E4E">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>86DDD6EF-713D-D130-BB74-ECF6D53F053A</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cupones_descuentos_id_cupones" id="31892F22-27A8-C8B8-C176-8BEFDB079C12">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>A0B80A62-A352-75B5-B464-25C5743FBAD1</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="323B9B2D-96EA-CFD9-80FA-DCBC2315E4AC" referredColumn="6E4A0B25-E3BE-F93A-B79A-56C48F74AB87"/>
+</associations>
+</Column>
+<Column name="estado" id="752FC5A6-9BE9-BBB7-2028-DD55D0AAD8BB">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>B0E570F5-B2D7-A8AD-2875-CAB214911154</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 CHAR</dataTypeSize>
+<ownDataTypeParameters>120 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuarios_id_usuarios" id="6DB0D3B4-061B-B625-730C-376CCF5E368B">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>1E2F5FA7-3335-B5C4-A7CF-BFC8E196CA57</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77E5A734-32C9-F86D-CD31-E2254A1E326C" referredColumn="6DB7B49D-ECFA-ADD3-9A92-2D95EFAA85FF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A147879B-A9FD-2FD2-3A83-36CDCA95A603" name="planes_mensuales_PK">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>F3A192EF-7B03-FA0A-C4BA-363CA149A9E7</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AACA965B-4CD8-4719-5AB2-36CE33A53DBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83BA4312-6BB7-92B9-7DC3-4EF729AD3080" name="planes_mensuales_usuarios_FK">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>6366BCC5-0DCB-A1DB-D3A5-638B59FC4B0F</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DB0D3B4-061B-B625-730C-376CCF5E368B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B031CADB-37F3-BC1E-3F48-D5B8D0C166A3" name="planes_mensuales_cupones_descuentos_FK">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>A626E449-A4FD-5C31-1D8C-5A941AECCBE1</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31892F22-27A8-C8B8-C176-8BEFDB079C12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

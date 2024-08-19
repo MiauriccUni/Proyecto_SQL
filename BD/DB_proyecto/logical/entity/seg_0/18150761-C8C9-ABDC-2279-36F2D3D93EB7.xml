@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="18150761-C8C9-ABDC-2279-36F2D3D93EB7" name="cupones_descuentos">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 01:28:37 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cupones" id="1361A01D-AB18-4D1D-4D81-0CE036FBCC70">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 01:28:45 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_cupon" id="6A5E93C7-76DC-2861-0567-D9E46A3E4B28">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 01:28:58 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descuento" id="A96D6222-9803-7B6B-B06D-B5FA59BE54FB">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 01:29:19 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FF34F7C8-D048-8B2B-0CB4-F194D9A33220" name="cupones_descuentos PK">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 01:29:02 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1361A01D-AB18-4D1D-4D81-0CE036FBCC70</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

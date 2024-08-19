@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F3B9D462-3B67-FE78-8793-C4C9FDA60675" name="maquina">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 01:06:27 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_maquina" id="1A5E232F-5F47-E7D6-969A-B86AFAE3FEE8">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 01:06:32 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_maquina" id="418A4AAC-C3E6-8294-B853-41D2EC42F9EC">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 01:06:40 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="19D7FB0E-5D8F-30BF-B88C-935B4B4F8B4C" name="maquina PK">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 01:06:59 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>418A4AAC-C3E6-8294-B853-41D2EC42F9EC</attributeRef>
+<attributeRef>1A5E232F-5F47-E7D6-969A-B86AFAE3FEE8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

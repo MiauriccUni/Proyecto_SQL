@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="65EB086E-BBA7-285E-0CAC-1B1A6F2556FA" name="usuarios">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 00:22:08 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_usuarios" id="5BB6EFE0-67EE-4CA3-4465-BFB4C890A6F3">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 00:22:48 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="7C1520EA-56B7-9298-98A6-1F66D9CA0667">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 00:23:03 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="6F487C0E-72A9-6DA7-F26D-F36B92776909">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 00:23:21 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nacimiento" id="5475C06B-7DFE-DFDB-7BDB-995C6B2FB0E7">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 00:23:36 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo" id="F91A14D7-E99E-A19F-9909-DDD7AF5C325D">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 00:23:47 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="celular" id="C3AC2C2E-41F3-7EF7-08E9-4D58CED9D50F">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 00:24:14 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contrasenna" id="9D5FE116-586B-5801-ACB9-0F402B9A4E67">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 00:24:50 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol" id="6465D0E2-83D3-046B-FB4F-DD8024DB6DB5">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 00:25:41 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="E0AE1726-414D-2167-7C84-7D7E2C747E88">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 00:47:09 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="26C2CB52-9888-5BDB-6801-B9B0D3F81CE8" name="usuarios PK">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-21 00:23:01 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5BB6EFE0-67EE-4CA3-4465-BFB4C890A6F3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

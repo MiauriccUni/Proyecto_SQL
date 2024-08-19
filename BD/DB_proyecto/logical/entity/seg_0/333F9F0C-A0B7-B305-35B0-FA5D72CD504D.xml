@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="333F9F0C-A0B7-B305-35B0-FA5D72CD504D" name="clases_grupales">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:01:47 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_clase" id="1A0D1D68-2953-4C93-2F3B-1E705DABF94A">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:02:02 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_clase" id="474C4E4D-E6ED-4DEC-8DAA-B6096AC1EF53">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:03:07 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horarios" id="5B9E18D0-13A6-8A47-8A1F-7BCB6A605DBE">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:03:25 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuarios" id="BE60F179-1DA2-83A9-CA19-3B4D76CD482C">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:08:55 UTC</createdTime>
+<generatorID>B75A18AF-8A58-25B8-1EDD-3D1FB7B25DF8</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5BB6EFE0-67EE-4CA3-4465-BFB4C890A6F3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B7F37592-ABD9-D286-9314-66F835A9FB38" name="clases_grupales PK">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:03:06 UTC</createdTime>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<engineerTo>
+<item key="87D26C3E-3ED3-F0ED-F306-1A01DAAD7A95" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1A0D1D68-2953-4C93-2F3B-1E705DABF94A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

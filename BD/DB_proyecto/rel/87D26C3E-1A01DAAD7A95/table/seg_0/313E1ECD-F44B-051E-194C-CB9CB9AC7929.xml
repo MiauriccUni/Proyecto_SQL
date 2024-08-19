@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="313E1ECD-F44B-051E-194C-CB9CB9AC7929" name="citas_de_medicion">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>9EA3B265-8959-80CF-7B08-283DCD9B8D85</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_citas_medicion" id="5E1BE38E-D644-2177-0842-23CF129309D4">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>E32DE99E-C30E-A57A-2306-EB5FD4FD8E0B</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="253652DB-FE60-5371-C502-802A9B6B4A1D">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>42002AF6-F59E-3F1D-CF77-0BD1A1F0FF58</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="peso" id="2AD6DE41-F917-8A56-F1EE-F0C7E0FB08AC">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>654769C5-77C8-29C6-19BF-6DA50D7ED61A</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estatura" id="4365CED3-914F-44CF-4E72-829CDC2027A7">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>2BFCB307-97FF-DE77-5087-980B7FE15F70</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="porcentage_grasa" id="303B9F30-10DC-5C65-4CCC-A8CB4EC3B5FE">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>60674744-910F-389D-3563-CD2AEC975B6E</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rutinas" id="C9048CD4-072B-B403-A19E-D4355773CE64">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>55289202-2CE6-AC73-9D42-993F37D53BBC</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10000 CHAR</dataTypeSize>
+<ownDataTypeParameters>10000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rutinas_id_rutina" id="BD498763-B92D-6211-8F23-6E9B0E435A74">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>3DD984FA-A1FC-CED4-16A8-FF3AA7E4F494</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B81575E8-21A2-B82D-4300-BE6C764FABE9" referredColumn="382C3E55-7F72-FE3A-9393-F948A02C3DD4"/>
+</associations>
+</Column>
+<Column name="usuarios_id_usuarios" id="44B78293-1B59-531C-F028-39E90B875C20">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>E6EA6E83-44F1-6981-57CA-9C7A873C0981</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72D54119-271C-67EB-9593-A624845F0F25" referredColumn="6DB7B49D-ECFA-ADD3-9A92-2D95EFAA85FF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75CC8827-29E6-2AB5-836B-86990CA2E9AD" name="citas_de_medicion_PK">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>C174A63C-439E-3C50-9573-9AE5B1D2AA03</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E1BE38E-D644-2177-0842-23CF129309D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="80F65929-0108-FE6D-C5B3-F45E32481187" name="citas_de_medicion_usuarios_FK">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>548E86F1-9500-1A1E-CF88-E485536AD37F</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44B78293-1B59-531C-F028-39E90B875C20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C094A141-1CB0-7CFB-F6DA-1ABE084D8F57" name="citas_de_medicion_rutinas_FK">
+<createdBy>ricar</createdBy>
+<createdTime>2024-06-26 01:11:11 UTC</createdTime>
+<generatorID>23127038-89FA-B18B-3F4D-9578FBCF57F6</generatorID>
+<ownerDesignName>DB_proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD498763-B92D-6211-8F23-6E9B0E435A74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
